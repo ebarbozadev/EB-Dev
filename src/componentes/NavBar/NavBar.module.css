@@ -1,0 +1,45 @@
+nav {
+    float: left;
+    width: 189px;
+}
+
+nav h2 {
+    margin-bottom: 16px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li a {
+    display: flex;
+    align-items: center;
+    color: var(--branco);
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+nav ul li a .ativo {
+    background-color: var(--azul-nivel-3);
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+}
+
+nav ul li a .inativo {
+    background-color: var(--azul-nivel-3);
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    margin-top: 16px;
+}
+
+nav ul li a .inativo img {
+    color: red;
+}

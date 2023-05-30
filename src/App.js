@@ -1,11 +1,13 @@
+import NavBar from './componentes/NavBar';
 import './App.css';
+import Cabecalho from './componentes/Cabecalho';
+import EditorDeCodigo from './componentes/EditorDeCodigo';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <h1>Teste</h1>
+      <Cabecalho />
+      <NavBar />
     </div>
   );
 }
-
-export default App;
